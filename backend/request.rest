@@ -1,0 +1,36 @@
+###
+GET http://localhost:3001/users
+
+
+###
+get http://localhost:3001/users/2
+
+
+###
+POST http://localhost:3001/users/add
+Content-Type: application/json
+
+{
+  "nama" : "Zulfikar",
+  "umur" : 20,
+  "gender" : "male",
+  "hobby" : "Coding",
+  "alamat" : "Kuningan"
+}
+
+###
+PUT http://localhost:3001/users/2
+Content-Type: application/json
+
+{
+  "nama" : "Shava",
+  "umur" : 19,
+  "gender" : "male",
+  "hobby" : "Coding",
+  "alamat" : "Kuningan"
+}
+
+###
+DELETE http://localhost:3001/users/15
+
+
